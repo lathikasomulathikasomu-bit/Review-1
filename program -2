@@ -1,0 +1,119 @@
+// HOSPITAL PATIENT TRACKING SYSTEM
+#include<stdio.h>
+#include<stdlib.h>
+ struct patient
+{
+  int patient ID;
+char patient name[30];
+char treatment status[50];
+};
+void addpatient()
+{
+struct=newpatient;
+newpatient = (struct patient*)malloc(sizeof(struct patient));
+
+printf("Enter the patient ID:");
+scanf("%d",&newpatient->patient ID);
+
+printf("Enter the patient name:");
+scanf("%c",&newpatient->patient name);
+
+printf("Enter the treatment status(WAITING/UNDER_TREATMENT/DISCHARGED):");
+scanf("%c",&newpatient->treatment status);
+
+}
+if(head=null)
+{head=newpatient;
+}
+else{
+
+}
+void updatestatus(){
+
+
+}
+void display()
+{
+ struct patient *temp = head;
+
+    if(head == NULL)
+    {
+}
+int main()
+{
+int choice;
+
+printf("\n.......HOSPITAL PATIENT TRACKING SYSTEM....\n");
+printf("1. ADD patient ID\n");
+printf("2. update status\n");
+printf("3.display all patient\n);
+printf("Exit\n");
+
+printf("Enter the choice:");
+scanf("%d",&choice);
+
+switch(choice){
+
+case1:
+addpatient()
+break;
+
+case2:
+update status()
+break;
+
+case3:
+display allpatients()
+break;
+
+case4()
+exit()
+break;
+
+default:
+printf("invalid choice");
+
+}
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
